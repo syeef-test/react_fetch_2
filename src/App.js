@@ -21,7 +21,7 @@ function App() {
       }
 
       if (!response.ok) {
-        throw new Error("Something went wrong!");
+        throw new Error("Something went wrong retrying!");
       }
       const data = await response.json();
 
